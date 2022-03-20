@@ -1,0 +1,127 @@
+.homePage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 2rem 4rem;
+    background-color: var(--background);
+    overflow: hidden;
+}
+
+.homePage .img{
+    flex: 1 1 25rem;
+}
+
+.homePage .img img{
+    width: 100%;
+}
+
+.homePage .homePageText{
+    flex: 1 1 25rem;
+}
+
+.homePageText h1{
+    color: var(--dark);
+    font-size: 3rem;
+}
+
+.homePageText h2{
+    color: var(--green);
+    font-size: 2.3rem;
+}
+
+.homePageText p{
+    color: var(--light);
+    font-size: 1.3rem;
+    max-width: 30rem;
+}
+
+.homePageText button{
+    margin-top: 1rem;
+    padding: .7rem 2rem;
+    font-weight: 900;
+    font-size: 2rem;
+    background-color: var(--green);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    color: #fff;
+    transition: background-color .3s;
+}
+
+.homePageText button:hover{
+    background-color: rgb(52, 156, 95);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--background);
+}
+
+.icons .icon img{
+    width: 10rem;
+}
+
+.icons .icon p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 900;
+    color: var(--light);
+}
+
+@media screen and (max-width: 1250px) {
+    .homePageText h1{
+        font-size: 2.8rem;
+    }
+    .homePageText h2{
+        font-size: 1.9rem;
+    }
+    .homePageText p{
+        font-size: 1.2rem;
+    }
+    .homePageText button{
+        padding: .6rem 1.9rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .homePageText h1{
+        font-size: 2.5rem;
+    }
+    .homePageText h2{
+        font-size: 1.5rem;
+    }
+    .homePageText p{
+        font-size: 1.1rem;
+        max-width: 24rem;
+    }
+    .homePageText button{
+        padding: .5rem 1.7rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .homePage .homePageText{
+        text-align: center;
+    }
+    .homePageText h2{
+        font-size: 1.7rem;
+    }
+    .homePageText p{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homePageText h2{
+        font-size: 1.5rem;
+    }
+}

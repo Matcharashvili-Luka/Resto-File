@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 4rem);
+    padding: 0rem 2rem;
+}
+
+.menu_panelList-wrap,
+.menu_filter-wrap
+.menu_list-wrap{
+    overflow-y: auto;
+}
+
+.menu_panelList-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_list-wrap{
+    flex: 1;
+}

@@ -1,0 +1,162 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    padding: .2rem 4rem;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    height: 4rem;
+    z-index: 11111;
+}
+
+.logo{
+    font-size: 2.2rem;
+    margin-left: 1rem;
+    font-weight: 900;
+    color: var(--green);
+    cursor: pointer;
+}
+
+.logo span{
+    color: var(--dark);
+}
+
+.navBarList{
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.navBarList li{
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: var(--light);
+    transition: color .3s;
+    cursor: pointer;
+}
+
+.navBarList li:hover{
+    color: #444;
+}
+
+.contact_btn,
+.shoppingCart_btn{
+    font-size: 1.4rem;
+    height: 2.9rem;
+    width: 3rem;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    color: var(--dark);
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.contact_btn:hover,
+.shoppingCart_btn:hover{
+    background-color: rgb(207, 206, 206);
+}
+
+.contact_btn{
+    margin-right: 1rem;
+}
+
+.shoppingCart_btn{
+    margin-right: 1.4rem;
+}
+
+.itemsNum{
+    background-color: var(--green);
+    height: 1.3rem;
+    width: 1.3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: .5rem;
+    right: 5.5rem;
+}
+
+.bars_btn{
+    display: none;
+    font-size: 1.6rem;
+    color: var(--dark);
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 850px) {
+    .navBarList{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--green);
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+    #hidden_navBar{
+        transform: none;
+    }
+    .navBarList{
+        flex-direction: column;
+    }
+    .navBarList li{
+        color: #fff;
+        transition: color .3s;
+    }
+    .navBarList li:hover{
+        color: #ccc;
+    }
+    .bars_btn{
+        display: flex;
+        cursor: pointer;
+    }
+    .contact_btn:hover,
+    .shoppingCart_btn:hover{
+        background-color: transparent;
+    }
+    .btn{
+        background-color: transparent;
+    }
+    .logo{
+        margin-right: auto;
+    }
+    .buttons{
+        position: absolute;
+        right: 4rem;
+        display: flex;
+        align-items: center;
+        width: 8rem;
+        justify-content: space-between;
+    }   
+    .itemsNum{
+        background-color: var(--green);
+        height: 1.3rem;
+        width: 1.3rem;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        font-weight: 600;
+        position: absolute;
+        top: .5rem;
+        right: 5rem;
+        transition: background-color .4s;
+    }
+    #hidden_navBar ~ .itemsNum{
+        background-color:  #fff;
+        color: var(--dark);
+    }
+} 
+

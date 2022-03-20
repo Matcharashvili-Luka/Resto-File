@@ -1,0 +1,154 @@
+body{
+    background-color: var(--background);
+}
+
+.contactPageFooter{
+    background-color: var(--dark);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0rem;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contactPageFooter .links p{
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color .2s;
+}
+
+.contactPageFooter .links p:hover{
+    color: rgb(204, 204, 204);
+}
+
+.contactPageFooter .links h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.contactPageFooter .links .fa-solid,
+.contactPageFooter .links .fa-brands{
+    width: 1.5rem;
+} 
+
+.contactInfo{
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.input-group{
+    margin-top: 2rem;
+}
+
+.contactInfo{
+    width: 80%;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrapperOne{
+    display: flex;
+}
+
+.box textarea{
+    width: 36.5rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    outline: 1px solid var(--green);
+    border: none;
+}
+
+.box input{
+    height: 2.5rem;
+    width: 17.75rem;
+    margin: 0rem .5rem;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    outline: 1px solid var(--green);
+    border: none;
+}
+
+.box{
+    position: relative;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.box label{
+    position: absolute;
+    top: .4rem;
+    left: 1.5rem;
+    color: var(--dark);
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: .3s;
+}
+.wrapperTwo label{
+    left: 1rem;
+}
+
+.sendMessageButton{
+    width: 36.5rem;
+    font-size: 1.5rem;
+    padding: .5rem 0rem;
+    outline: none;
+    border: none;
+    background-color: var(--green);
+    color: #fff;
+    font-weight: 900;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.sendMessageButton:hover{
+    background-color: rgb(37, 145, 69);
+}
+
+.contactInfo h1{
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    color: var(--dark);
+}
+
+.box input:focus ~ label, textarea:focus ~ label,.box input:valid ~ label, textarea:valid ~ label{
+    top: -1.7rem;
+}
+
+@media screen and (max-width: 780px){
+    .wrapperOne{
+        flex-direction: column;
+    }
+    .wrapper{
+        width: 80%;
+    }
+    .box input{
+        width: 100%;
+        margin: 0rem;
+    }
+    .box textarea{
+        width: 100%;
+    }
+    .sendMessageButton{
+        width: 80%;
+    }
+}
+
+.photo img{
+    width: 20rem;
+}
