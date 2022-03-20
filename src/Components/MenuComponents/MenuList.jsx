@@ -9,7 +9,7 @@ function MenuList({ toggleCount }) {
       <div className='menuList'>
         {MenuListItems.map((menuItem, key) => {
           return (
-            <MenuItem 
+            <MenuItem
               key={key}
               image={menuItem.Image} 
               name={menuItem.name} 

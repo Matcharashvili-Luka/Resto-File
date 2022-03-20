@@ -77,6 +77,11 @@
   border-radius: 1rem;
   color: #fff;
   cursor: pointer;
+  transition: background-color .3s;
+}
+
+.menuItemButton button:hover{
+  background-color: rgb(37, 145, 69);
 }
 
 @media only screen and (max-width: 1300px) {

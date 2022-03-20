@@ -19,3 +19,15 @@
 .menu_list-wrap{
     flex: 1;
 }
+
+.menu_header_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.menu_header_wrap h1{
+    font-size: 3rem;
+
+}
