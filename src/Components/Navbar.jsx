@@ -15,7 +15,15 @@ function Navbar({ count }) {
   return (
     <div className='navBar'>
         <div className='logo'>
-            <p><i class="fa-solid fa-utensils"></i><span> Resto</span></p>
+            <Link to="/" style={{ textDecoration: 'none' }}>
+                <p>
+                    <i 
+                        class="fa-solid fa-utensils"  
+                        style={{ color: '#27ae60' }}>
+                    </i>
+                    <span> Resto</span>
+                </p>
+            </Link>
         </div>
         <ul className='navBarList' id={navBarId ? 'hidden_navBar' : ''}>
             <Link to='/' style={{ textDecoration: 'none' }}> 
