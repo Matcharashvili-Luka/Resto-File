@@ -3,7 +3,7 @@ import MenuList from '../Components/MenuComponents/MenuList';
 import '../Styles/Menu.css';
 
 
-function Menu({ toggleCount }) {
+function Menu({ onAdd }) {
   return (
     <div className='menu'>
       <div className='menu_panelList-wrap'>
@@ -11,9 +11,7 @@ function Menu({ toggleCount }) {
           <h1>Resto's Menu</h1>
         </div>
         <div className='menu_list-wrap'>
-          <MenuList 
-            toggleCount={toggleCount}
-          />
+          <MenuList onAdd={onAdd} />
         </div>
       </div>
     </div>

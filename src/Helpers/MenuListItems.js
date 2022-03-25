@@ -26,6 +26,7 @@ import yummyVeganBurger from '../Assets/Menu/yummyVeganBurger.jpg';
 
 export const MenuListItems = [
     {
+        id: 1,
         name: 'Baby Burger',
         Image: babyBurger,
         info: 'Meltec Cheese, Pickles, Beef, Tomato',
@@ -33,6 +34,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 2,
         name: 'BBQ Chicken Burger',
         Image: bbqChickenBurger,
         info: 'Chicken, Mozza, Onion, Mayo, BBQ Sause',
@@ -40,6 +42,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 3,
         name: 'Beef Bacon Burger',
         Image: beefBaconBurger,
         info: 'Beef, Chedder, Onion, Tomato, Mayo, Katchup, Lettuce, Pickles, Mustard, Bacon',
@@ -47,6 +50,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 4,
         name: 'Beef Burger',
         Image: beefBurger,
         info: 'Beef, Onion, Tomato, Mayo, Katchup, Lettuce, Pickles, Mustard',
@@ -54,6 +58,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 5,
         name: 'Buffalo Burger',
         Image: buffaloBurger,
         info: 'Chicken, Mozza, Onion, Tomato, Lettuce, Garlic, Mayo',
@@ -61,6 +66,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 6,
         name: 'Cheese Burger',
         Image: cheeseBurger,
         info: 'Beef, Chedder, Onion, Tomato, Mayo, Katchup, Lettuce, Pickles, Mustard',
@@ -68,6 +74,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 7,
         name: 'Cheese Fries',
         Image: cheeseFries,
         info: 'Mozza Cheese, Regular Fries',
@@ -75,13 +82,15 @@ export const MenuListItems = [
         type: 'fries',
     },
     {
-        name: 'Cheese Sause',
+        id: 8,
+        name: 'Cheese Sauce',
         Image: cheeseSause,
         info: 'Melted Cheese',
         price: 0.99,
-        type: 'sause',
+        type: 'sauce',
     },
     {
+        id: 9,
         name: 'Coca-Cola',
         Image: coca_cola,
         info: 'Coca-Cola Classic',
@@ -89,6 +98,7 @@ export const MenuListItems = [
         type: 'fizzy',
     },
     {
+        id: 10,
         name: 'Creamy Mashroom Burger',
         Image: creamyMushroomBurger,
         info: 'Beef, Cream of Mushroom, Mozza, Onion, Mayo',
@@ -96,6 +106,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 11,
         name: 'Double Cheese Burger',
         Image: doubleCheeseBurger,
         info: 'Beef, Chedder, Onion, Tomato, Mayo, Katchup, Lettuce, Pickles, Mustard',
@@ -103,6 +114,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 12,
         name: 'Extra Cheese Burger',
         Image: extraCheeseBurger,
         info: 'Beef, Chedder, Onion, Tomato, Mayo, Katchup, Lettuce, Pickles, Mustard, Melted Cheese',
@@ -110,6 +122,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 13,
         name: 'Fanta',
         Image: fanta,
         info: 'Fanta',
@@ -117,6 +130,7 @@ export const MenuListItems = [
         type: 'fizzy',
     },
     {
+        id: 14,
         name: 'Fries',
         Image: fries,
         info: 'Regular Fries',
@@ -124,13 +138,15 @@ export const MenuListItems = [
         type: 'fries',
     },
     {
-        name: 'Garlic Sause',
+        id: 15,
+        name: 'Garlic Sauce',
         Image: garlicSause,
         info: 'Garlic, Mayo, Paper, Salt',
         price: 0.99,
-        type: 'sause',
+        type: 'sauce',
     },
     {
+        id: 16,
         name: 'Hawaiian Burger',
         Image: hawaiianBurger,
         info: 'Beef, Pineapple, Mozza, Onion, Tomato, Lettuce, Mayo, BBQ Sause',
@@ -138,13 +154,15 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
-        name: 'Ketchup Sause',
+        id: 17,
+        name: 'Ketchup Sauce',
         Image: ketchupSause,
         info: 'Ketchup, Parsley',
         price: 0.99,
-        type: 'sause',
+        type: 'sauce',
     },
     {
+        id: 18,
         name: 'Little Luka Burger',
         Image: littleLukaBurger,
         info: 'Beef, Mozza, Onion, Tomato, Mayo, Lettuce, BBQ Sause, Mustard, Ketchup',
@@ -152,13 +170,15 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
-        name: 'Mayo Sause',
+        id: 19,
+        name: 'Mayo Sauce',
         Image: mayoSause,
         info: 'Mayo, Garlic, Salt, Paper',
         price: 0.99,
-        type: 'sause',
+        type: 'sauce',
     },
     {
+        id: 20,
         name: 'Tandoori Burger',
         Image: spicyTandooriBurger,
         info: 'Chicken, Chedder, Onion, Tomato, Lettuce, Pickles, Garlic Sause, Mayo',
@@ -166,6 +186,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 21,
         name: 'Sprite',
         Image: sprite,
         info: 'Sprite',
@@ -173,6 +194,7 @@ export const MenuListItems = [
         type: 'fizzy',
     },
     {
+        id: 22,
         name: 'Super Crispy Fries',
         Image: superCrispyFries,
         info: 'Regular Fries',
@@ -180,6 +202,7 @@ export const MenuListItems = [
         type: 'fries',
     },
     {
+        id: 23,
         name: 'Vegan Burger',
         Image: veganBurger,
         info: 'Egg, Bean, Rice, Carrot, Parsley, Onion, Cashews',
@@ -187,6 +210,7 @@ export const MenuListItems = [
         type: 'burger',
     },
     {
+        id: 24,
         name: 'Yummy Vegan Burger',
         Image: yummyVeganBurger,
         info: 'Egg, Bean, Rice, Parsley, Onion, Cashews, Potato, Pickles',

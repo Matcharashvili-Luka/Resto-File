@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../Styles/Navbar.css';
 import { Link } from 'react-router-dom';
 
-function Navbar({ count }) {
+function Navbar({ itemsQtn }) {
 
     const[navBarId, setNavBarId] = useState(false);
     const changeNavId = () => {
@@ -53,7 +53,7 @@ function Navbar({ count }) {
             </button>
         </div>
         <div className='itemsNum'>
-            <p>{count}</p>
+            <p>{itemsQtn}</p>
         </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function MenuItem({ image, name, price, info, toggleCount }) {
+function MenuItem({ image, name, price, info, onAdd, menuItem }) {
   return (
     <div className='menuItemUi'>
         <div 
@@ -12,7 +12,7 @@ function MenuItem({ image, name, price, info, toggleCount }) {
             <p className='info'>{info}</p>
           </div>
           <div className='menuItemButton'>
-            <button onClick={toggleCount}>Add To Cart</button>  
+            <button onClick={() => onAdd(menuItem)}>Add To Cart</button>  
           </div>
         </div>
     </div>

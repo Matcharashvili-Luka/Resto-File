@@ -3,19 +3,20 @@ import { MenuListItems } from '../../Helpers/MenuListItems';
 import MenuItem from './MenuItem';
 import '../../Styles/MenuComponentStyle/MenuItem.css';
 
-function MenuList({ toggleCount }) {
+function MenuList({ onAdd }) {
   return (
     <div className='menuContainer'>
       <div className='menuList'>
-        {MenuListItems.map((menuItem, key) => {
+        {MenuListItems.map((menuItem) => {
           return (
             <MenuItem
-              key={key}
+              key={menuItem.id}
               image={menuItem.Image} 
               name={menuItem.name} 
               info={menuItem.info} 
               price={menuItem.price}
-              toggleCount={toggleCount}
+              onAdd={onAdd}
+              menuItem={menuItem}
             />
           );
         })}

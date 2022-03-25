@@ -1,0 +1,12 @@
+.quantityOperators{
+    display: flex;
+}
+
+.row{
+    display: flex;
+}
+
+.cartItemImage{
+    width: 100px;
+    height: 100px;
+}
