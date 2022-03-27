@@ -1,0 +1,214 @@
+.aboutPage{
+    padding: 2rem 7rem;
+}
+
+.aboutPageHeader{
+    font-size: 3rem;
+    color: var(--dark);
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.restaurant{
+    display: flex;
+}
+
+.restoPictures{
+    padding-top: 4rem;
+}
+
+.restopic{
+    border-radius: 2rem;
+    transition: transform .7s;
+}
+
+.restopic:hover{
+    transform: scale(1.2);
+}
+
+.resto1pic{
+    width: 20rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
+}
+
+.resto2pic{
+    width: 27rem;
+}
+
+.aboutRestoText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
+.aboutRestoText h2{
+    font-size: 2.5rem;
+    color: var(--green);
+    margin-bottom: 1rem;
+}
+
+.team{
+    margin-top: 2rem;
+    display: flex;
+    padding: 2rem 0rem;
+}
+
+.teamPic{
+    width: 30rem;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    transition: transform .7s;
+}
+
+.teamPic:hover{
+    transform: scale(1.2);
+}
+
+.aboutTeamText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: var(--dark);
+}
+
+.aboutTeamText h2{
+    font-size: 2.5rem;
+    color: var(--green);
+    margin-bottom: 1rem;
+}
+
+.food{
+    margin-top: 2rem;
+    display: flex;
+    padding: 2rem 0rem;
+}
+
+.foodPic{
+    width: 30rem;
+    border-radius: 2rem;
+    transition: transform .7s;
+}
+
+.foodPic:hover{
+    transform: scale(1.2);
+}
+
+.aboutFoodText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: var(--dark);
+    margin-left: 5rem;
+}
+
+.aboutFoodText h2{
+    font-size: 2.5rem;
+    color: var(--green);
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .aboutPage{
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .resto1pic{
+        width: 18rem;
+    }
+    .resto2pic{
+        width: 25rem;
+    }
+    .teamPic{
+        width: 27rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .resto1pic{
+        width: 17rem;
+    }
+    .resto2pic{
+        width: 22rem;
+    }  
+    .teamPic{
+        width: 25rem;
+        margin-left: 3rem;
+    }
+    .foodPic{
+        width: 27rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .restaurant{
+        flex-direction: column;
+        text-align: center;
+    }
+    .restopic:hover{
+        transform: none
+    }
+    .teamPic:hover{
+        transform: none;
+    }
+    .foodPic:hover{
+        transform: none;
+    }
+    .resto1pic{
+        width: 80%;
+        margin-bottom: 2rem;
+        margin-left: 0rem;
+    }
+    .resto2pic{
+        width: 70%;
+    }
+    .aboutRestoText{
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+    .team{
+        margin-top: 5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .teamPic{
+        width: 80%;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .food{
+        margin-top: 5rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .aboutFoodText{
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
+    .foodPic{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .aboutRestoText{
+        font-size: 1rem;
+    }
+    .aboutRestoText h2{
+        font-size: 2.3rem;
+    }
+    .teamPic{
+        width: 100%;
+    }
+    .foodPic{
+        width: 90%;
+    }
+}

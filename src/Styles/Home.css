@@ -120,8 +120,22 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .icons .icon img{
+        width: 7rem;
+    }
+    .icons .icon p{
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 900;
+        color: var(--light);
+    }
+}
+
 @media screen and (max-width: 500px) {
     .homePageText h2{
         font-size: 1.5rem;
     }
 }
+
+

@@ -1,0 +1,21 @@
+.footer{
+    height: 4rem;
+    background-color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        height: 3rem;
+    }
+    .footer p{
+        font-size: 1.2rem;
+    }
+}

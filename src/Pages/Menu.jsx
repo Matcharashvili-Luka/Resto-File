@@ -10,6 +10,7 @@ function Menu({ onAdd }) {
         <div className='menu_header_wrap'>
           <h1>Resto's Menu</h1>
         </div>
+        <hr />
         <div className='menu_list-wrap'>
           <MenuList onAdd={onAdd} />
         </div>

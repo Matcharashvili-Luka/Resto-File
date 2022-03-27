@@ -29,7 +29,7 @@ function Navbar({ itemsQtn }) {
             <Link to='/' style={{ textDecoration: 'none' }}> 
                 <li onClick={setNavIdToFalse}>Home</li>
             </Link >
-            <li onClick={setNavIdToFalse}>About us</li>
+            <li onClick={setNavIdToFalse}><a href='#aboutPage'>About us</a></li>
             <Link to='/menu' style={{ textDecoration: 'none' }}>
                 <li onClick={setNavIdToFalse}>Menu</li>
             </Link>
