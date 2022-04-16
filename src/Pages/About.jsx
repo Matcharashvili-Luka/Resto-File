@@ -12,8 +12,8 @@ function About() {
         <hr />
         <div className="restaurant">
             <div className='restoPictures'>
-                <img src={resto1} className='restopic resto1pic'/>
-                <img src={resto2} className='restopic resto2pic'/>
+                <img src={resto1} className='restopic resto1pic' alt='' />
+                <img src={resto2} className='restopic resto2pic' alt='' />
             </div>
             <div className='aboutRestoText'>
                 <h2>Our Place</h2>
@@ -25,10 +25,10 @@ function About() {
                 <h2>Our Team</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magni autem ducimus mollitia, libero expedita iusto tenetur incidunt aspernatur sapiente, eaque praesentium repellat maxime neque animi repellendus, delectus voluptas quod.</p>
             </div>
-            <div><img src={team} className='teamPic'/></div>
+            <div><img src={team} className='teamPic' alt='' /></div>
         </div>
         <div className="food">
-            <div><img src={food} className='foodPic'/></div>
+            <div><img src={food} className='foodPic' alt='' /></div>
             <div className='aboutFoodText'>
                 <h2>Fresh Food</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias magni autem ducimus mollitia, libero expedita iusto tenetur incidunt aspernatur sapiente, eaque praesentium repellat maxime neque animi repellendus, delectus voluptas quod.</p>

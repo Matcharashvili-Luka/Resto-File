@@ -156,6 +156,9 @@
         width: 8rem;
         justify-content: space-between;
     }   
+    .buttons .contact_btn{
+        margin-right: 1rem;
+    }
     .itemsNum{
         background-color: var(--green);
         height: 1.3rem;

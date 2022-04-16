@@ -21,20 +21,20 @@ function Home() {
               </Link>
           </div>
           <div className='img'>
-            <img src={Backgound} />
+            <img src={Backgound} alt='' />
           </div>
         </div>
         <div className='icons'>
           <div className='icon Easy'>
-            <img src={Easy} />
+            <img src={Easy} alt='' />
             <p>Easy To Order</p>
           </div>
           <div className='icon Delivery'>
-            <img src={Delivery} />
+            <img src={Delivery} alt='' />
             <p>Fast Delivery</p>
           </div>
           <div className='icon Quality'>
-            <img src={Quality} /> 
+            <img src={Quality} alt='' /> 
             <p>High Quality</p>
           </div>
         </div>

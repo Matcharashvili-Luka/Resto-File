@@ -44,7 +44,7 @@ function ShoppingCart({ cartItems, onAdd, onRemove, onDelete }) {
         {cartItems.length !== 0 && (
             <div className='shoppingCartFooter'>
                 <div>Items Price</div>
-                <div>{itemsPrice.toFixed(2)}</div>
+                <div>${itemsPrice.toFixed(2)}</div>
                 <div className='cartItemOrder'>
                   <button>Order Now</button>
                 </div>

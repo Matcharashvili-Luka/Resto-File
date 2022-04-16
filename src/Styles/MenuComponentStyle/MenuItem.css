@@ -95,3 +95,17 @@
     grid-template-columns: 1fr;
   }
 }
+
+.searchBar{
+  width: 60%;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: .5rem;
+  padding: .3rem ;
+  font-size: 1.2rem;
+  background-color: transparent;
+  outline: 2px solid var(--green);
+  border: none;
+  border-radius: 1rem;
+  color: var(--dark);
+}

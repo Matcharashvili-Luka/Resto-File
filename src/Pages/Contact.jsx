@@ -28,7 +28,7 @@ function Contact() {
             <button className='sendMessageButton'>Send Message</button>
         </form>
         <div className='photo'>
-            <img src={Envelope} />
+            <img src={Envelope} alt='' />
         </div>
         <ContactFooter />
     </div>
